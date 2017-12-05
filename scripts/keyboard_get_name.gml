@@ -1,0 +1,63 @@
+///keyboard_get_name(keycode);
+/**
+ **Returns a string representing the keycode of the given argument
+ **/
+    switch(argument0) {
+        case vk_add: return "add"; break;
+        case vk_alt: return "alt"; break;
+        case vk_anykey: return "anykey"; break;
+        case vk_backspace: return "backspace"; break;
+        case vk_control: return "control"; break;
+        case vk_decimal: return "decimal"; break;
+        case vk_delete: return "delete"; break;
+        case vk_divide: return "divide"; break;
+        case vk_down: return "down"; break;
+        case vk_end: return "end"; break;
+        case vk_enter: return "enter"; break;
+        case vk_escape: return "escape"; break;
+        case vk_f1: return "f1"; break;
+        case vk_f2: return "f2"; break;
+        case vk_f3: return "f3"; break;
+        case vk_f4: return "f4"; break;
+        case vk_f5: return "f5"; break;
+        case vk_f6: return "f6"; break;
+        case vk_f7: return "f7"; break;
+        case vk_f8: return "f8"; break;
+        case vk_f9: return "f9"; break;
+        case vk_f10: return "f10"; break;
+        case vk_f11: return "f11"; break;
+        case vk_f12: return "f12"; break;
+        case vk_home: return "home"; break;
+        case vk_insert: return "insert"; break;
+        case vk_lalt: return "lalt"; break;
+        case vk_lcontrol: return "lcontrol"; break;
+        case vk_left: return "left"; break;
+        case vk_lshift: return "lshift"; break;
+        case vk_multiply: return "multiply"; break;
+        case vk_nokey: return "nokey"; break;
+        case vk_numpad0: return "numpad0"; break;
+        case vk_numpad1: return "numpad1"; break;
+        case vk_numpad2: return "numpad2"; break;
+        case vk_numpad3: return "numpad3"; break;
+        case vk_numpad4: return "numpad4"; break;
+        case vk_numpad5: return "numpad5"; break;
+        case vk_numpad6: return "numpad6"; break;
+        case vk_numpad7: return "numpad7"; break;
+        case vk_numpad8: return "numpad8"; break;
+        case vk_numpad9: return "numpad9"; break;
+        case vk_pagedown: return "pagedown"; break;
+        case vk_pageup: return "pageup"; break;
+        case vk_pause: return "pause"; break;
+        case vk_printscreen: return "printscreen"; break;
+        case vk_ralt: return "ralt"; break;
+        case vk_rcontrol: return "rcontrol"; break;
+        //case vk_return: return "return"; break;
+        case vk_right: return "right"; break;
+        case vk_rshift: return "rshift"; break;
+        case vk_shift: return "shift"; break;
+        case vk_space: return "space"; break;
+        case vk_subtract: return "subtract"; break;
+        case vk_tab: return "tab"; break;
+        case vk_up: return "up"; break;
+        default: return chr(argument0);break;
+    }
