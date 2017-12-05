@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+# Welcome to Mutation
 
-You can use the [editor on GitHub](https://github.com/AidanFairman/Mutation/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+![Mutation](/Screenshot.jpg/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Summary
 
-### Markdown
+You are Brad Luck, the most unlucky guy in the universe. In fact, the universe is trying to kill you. Always chasing you down with somthing deadly that you have to escape. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Travel through 5 deadly levels, using powerful mutations that have infected you along the way (how unlucky!). To find the fifth level, you must first conquer the first 4, finding the map piece on each world. Careful not to get killed!
 
-```markdown
-Syntax highlighted code block
+This project was created as one of my game development classes. It is a side-scrolling platform chase game, and it's quite challenging!
 
-# Header 1
-## Header 2
-### Header 3
+### Try it out!
 
-- Bulleted
-- List
+There is an executable in the [root folder](https://github.com/AidanFairman/Mutation/) of this project.  
 
-1. Numbered
-2. List
+### Contribution
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AidanFairman/Mutation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+My main contribution to the project was to figure out how to do the trickier parts that the other group members couldn't figure out. I figured out how to do control-remapping with GameMaker, came up with a way to save and load, killed some of our big bugs, and a couple other things I have forgotten at this time. If we needed it for the game and there was no obvious way to make it work, it was my project to get it in there.
